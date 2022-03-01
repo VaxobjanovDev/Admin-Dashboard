@@ -1,0 +1,103 @@
+import { AiFillHome, AiOutlineMail } from "react-icons/ai";
+import { BiTrendingUp, BiUser } from "react-icons/bi";
+import {
+  MdTimeline,
+  MdOutlineDynamicFeed,
+  MdReportGmailerrorred,
+} from "react-icons/md";
+import { GoProject } from "react-icons/go";
+import { BsCurrencyDollar, BsDiagram2, BsBag } from "react-icons/bs";
+import { TiMessage } from "react-icons/ti";
+import "./Main.css";
+
+export const Dashboard = () => {
+  return (
+    <div className="sidebar__menu">
+      <h3 className="sidebar__title">Dashboard</h3>
+      <ul className="sidebar__list">
+        <li className="sidebar__list-item active">
+          <AiFillHome className="sidebar-icon" />
+          Home
+        </li>
+        <li className="sidebar__list-item">
+          <BiTrendingUp className="sidebar-icon" />
+          Anylictics
+        </li>
+        <li className="sidebar__list-item">
+          <MdTimeline className="sidebar-icon" />
+          Trending
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export const Quick = () => {
+  return (
+    <div className="sidebar__menu">
+      <h3 className="sidebar__title">Notifications</h3>
+      <ul className="sidebar__list">
+        <li className="sidebar__list-item">
+          <BiUser className="sidebar-icon" />
+          Users
+        </li>
+        <li className="sidebar__list-item">
+          <GoProject className="sidebar-icon" />
+          Products
+        </li>
+        <li className="sidebar__list-item">
+          <BsCurrencyDollar className="sidebar-icon" />
+          Transactions
+        </li>
+        <li className="sidebar__list-item">
+          <BsDiagram2 className="sidebar-icon" />
+          Reports
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export const Notifications = () => {
+  return (
+    <div className="sidebar__menu">
+      <h3 className="sidebar__title">Quick Menu</h3>
+      <ul className="sidebar__list">
+        <li className="sidebar__list-item">
+          <AiOutlineMail className="sidebar-icon" />
+          Mail
+        </li>
+        <li className="sidebar__list-item">
+          <MdOutlineDynamicFeed className="sidebar-icon" />
+          Feedback
+        </li>
+        <li className="sidebar__list-item">
+          <TiMessage className="sidebar-icon" />
+          Messages
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export const Staff = () => {
+  return (
+    <div className="sidebar__menu">
+      <h3 className="sidebar__title">Staff</h3>
+      <ul className="sidebar__list">
+        <li className="sidebar__list-item">
+          <BsBag className="sidebar-icon" />
+          Manage
+        </li>
+        <li className="sidebar__list-item">
+          <BiTrendingUp className="sidebar-icon" />
+          Anylictics
+        </li>
+        <li className="sidebar__list-item">
+          <MdReportGmailerrorred className="sidebar-icon" />
+          Reports
+        </li>
+      </ul>
+    </div>
+  );
+};
