@@ -1,0 +1,9 @@
+export { default as Topbar } from "../components/topbar/Topbar";
+export { default as Sidebar } from "../components/sidebar/Sidebar";
+export { default as Home } from "./home/Home";
+export { default as NewProduct } from "./newproduct/NewProduct";
+export { default as NewUser } from "./newuser/NewUser";
+export { default as Product } from "./product/Product";
+export { default as ProductList } from "./productlist/ProductList";
+export { default as Userlist } from "./Userlist/Userlist";
+export { default as User } from "./user/User";
