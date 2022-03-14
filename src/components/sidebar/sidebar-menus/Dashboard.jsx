@@ -9,16 +9,19 @@ import { GoProject } from "react-icons/go";
 import { BsCurrencyDollar, BsDiagram2, BsBag } from "react-icons/bs";
 import { TiMessage } from "react-icons/ti";
 import "./Main.css";
+import { Link } from "react-router-dom";
 
 export const Dashboard = () => {
   return (
     <div className="sidebar__menu">
       <h3 className="sidebar__title">Dashboard</h3>
       <ul className="sidebar__list">
-        <li className="sidebar__list-item active">
-          <AiFillHome className="sidebar-icon" />
-          Home
-        </li>
+        <Link className="link" to="/">
+          <li className="sidebar__list-item active">
+            <AiFillHome className="sidebar-icon" />
+            Home
+          </li>
+        </Link>
         <li className="sidebar__list-item">
           <BiTrendingUp className="sidebar-icon" />
           Anylictics
@@ -37,14 +40,18 @@ export const Quick = () => {
     <div className="sidebar__menu">
       <h3 className="sidebar__title">Notifications</h3>
       <ul className="sidebar__list">
-        <li className="sidebar__list-item">
-          <BiUser className="sidebar-icon" />
-          Users
-        </li>
-        <li className="sidebar__list-item">
-          <GoProject className="sidebar-icon" />
-          Products
-        </li>
+        <Link className="link" to="/userlist">
+          <li className="sidebar__list-item">
+            <BiUser className="sidebar-icon" />
+            Users
+          </li>
+        </Link>
+        <Link className="link" to="/productlist">
+          <li className="sidebar__list-item">
+            <GoProject className="sidebar-icon" />
+            Products
+          </li>
+        </Link>
         <li className="sidebar__list-item">
           <BsCurrencyDollar className="sidebar-icon" />
           Transactions
