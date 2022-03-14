@@ -16,7 +16,7 @@ const WidgetLarge = () => {
           <th className="widget__large-th">Status</th>
         </tr>
         <tr className="widget__large-tr">
-          <td className="user">
+          <td className="user-box">
             <img
               className="user-img"
               src="https://randomuser.me/api/portraits/women/11.jpg"
@@ -31,7 +31,7 @@ const WidgetLarge = () => {
           </td>
         </tr>
         <tr className="widget__large-tr">
-          <td className="user">
+          <td className="user-box">
             <img
               className="user-img"
               src="https://randomuser.me/api/portraits/women/11.jpg"
@@ -46,7 +46,7 @@ const WidgetLarge = () => {
           </td>
         </tr>
         <tr className="widget__large-tr">
-          <td className="user">
+          <td className="user-box">
             <img
               className="user-img"
               src="https://randomuser.me/api/portraits/women/11.jpg"
@@ -61,7 +61,7 @@ const WidgetLarge = () => {
           </td>
         </tr>
         <tr className="widget__large-tr">
-          <td className="user">
+          <td className="user-box">
             <img
               className="user-img"
               src="https://randomuser.me/api/portraits/women/11.jpg"
@@ -76,7 +76,7 @@ const WidgetLarge = () => {
           </td>
         </tr>
         <tr className="widget__large-tr">
-          <td className="user">
+          <td className="user-box">
             <img
               className="user-img"
               src="https://randomuser.me/api/portraits/women/11.jpg"
