@@ -62,9 +62,9 @@ export default function Userlist() {
       renderCell: (params) => {
         return (
           <>
-            {/* <Link to={'/users/' + params.row.id}> */}
+            <Link to={'/user/' + params.row.id}>
             <button className="user-edit">Edit</button>
-            {/* </Link> */}
+            </Link>
             <AiOutlineDelete onClick={()=>handleDelete(params.row.id)} className="user-delete" />
           </>
         );
@@ -74,6 +74,9 @@ export default function Userlist() {
 
   return (
     <div className="user-list" style={{ height: 600, width: "100%" }}>
+      <div className="userlist__title">
+        <h1>User List</h1>
+      </div>
       <DataGrid
         rows={data}
         columns={columns}
