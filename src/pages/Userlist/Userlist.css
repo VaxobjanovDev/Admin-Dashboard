@@ -1,6 +1,10 @@
 .user-list {
-  display: flex;
   flex: 4;
+  padding: 20px;
+}
+
+.userlist__title{
+  margin: 10px 0;
 }
 
 .userlist-user {
@@ -8,6 +12,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .user-image {
   width: 35px;
   height: 35px;

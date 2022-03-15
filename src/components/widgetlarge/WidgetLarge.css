@@ -15,7 +15,7 @@
     text-align: start;
 }
 
-.user{
+.user-box{
     display: flex;
     align-items: center;
     font-weight: 600;
